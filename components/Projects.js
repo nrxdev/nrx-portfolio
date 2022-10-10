@@ -9,7 +9,7 @@ const Projects = () => {
       transition={{ duration: 1.5 }}
       className="h-screen relative flex overflow-hidden flex-col text-left md:flex-row max-w-full justify-evenly mx-auto items-center z-0"
     >
-      <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-300 text-2xl">
+      <h3 className="absolute top-20 sm:top-24 uppercase tracking-[20px] text-gray-300 text-2xl">
         Proyectos
       </h3>
 
@@ -32,16 +32,16 @@ const Projects = () => {
               viewport={{ once: true }}
               src="http://2.bp.blogspot.com/-lFPhIYizHOo/Vdxq9lFVRqI/AAAAAAABFk0/q6p_i1pZg9U/s1600/LOGO%2BDE%2BGESTION-SINTESIS-762075.png"
               alt=""
-              className="max-h-60"
+              className="max-h-40 sm:max-h-60"
             />
-            <div className="space-y-10 px-0 md:px-10 max-w-6xl">
-              <h4 className="text-4xl font-semibold text-center">
+            <div className="space-y-5 md:space-y-10 px-0 md:px-10 max-w-6xl">
+              <h4 className="text-2xl md:text-4xl font-semibold text-center">
                 <span className="underline decoration-[#00cec9]/50">
                   Case study:
                 </span>{" "}
                 Implementacion de datacenter
               </h4>
-              <p className="text-lg text-center md:text-left">
+              <p className="text-md md:text-lg text-center md:text-left">
                 asdlkjas ldkja slkdjasdlkjasdskjd lkasdjals. kdjaslj dasdjas
                 ldjasldkjas lkdjalsk. djaslkd jasdasdl kajsdlkasjdlasjd. jlasd
                 sdlk jasdlkasdjlak sjdals djalsjd
