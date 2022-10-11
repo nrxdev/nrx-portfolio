@@ -132,7 +132,7 @@ const WorkExperience = () => {
                 01-01-2005 - 01-12-2005
               </p>
               <ul className="list-disc ml-5 text-md sm:text-lg">
-                <li>Instalación y Reparación de PC's</li>
+                <li>Instalación y Reparación de PC&apos;s</li>
                 <li>Cableado Estructurado de Redes</li>
                 <li>Cableado e Instalación de Cabinas Telefónicas</li>
                 <li>Configuración de Software de cabinas telefónicas</li>
