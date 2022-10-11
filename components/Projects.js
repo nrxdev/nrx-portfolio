@@ -5,7 +5,7 @@ const Projects = () => {
     {
       title: "Adquisición de un sistema de procesamiento de datos HCI con HA",
       description:
-        "Modernización de Datacenter introduciendo una solución hiperconvergente basada en vSAN, logrando de esta manera Agilidad, Simpleza y Escalibilidad todo al mismo tiempo, obteniendo así características de Nubes Públicas pero on Premise, automatizando tareas mediante el uso del software y gestionando el ciclo de vida de la plataforma con un solo click.",
+        "Modernización de Datacenter introduciendo una solución hiperconvergente basada en vSAN, logrando de esta manera Agilidad, Simpleza y Escalibilidad todo al mismo tiempo, obteniendo así características de Nubes Públicas pero on Premise.",
       logo: "/logos-marcas/iapser.jpg",
     },
     {
