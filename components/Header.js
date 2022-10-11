@@ -7,12 +7,10 @@ const Header = () => {
     <header className="flex items-start justify-between p-5 sticky top-0 max-w-7xl mx-auto z-20">
       <motion.div
         initial={{
-          x: -500,
           opacity: 0,
           scale: 0.5,
         }}
         animate={{
-          x: 0,
           opacity: 1,
           scale: 1,
         }}
@@ -25,33 +23,39 @@ const Header = () => {
           url="https://www.linkedin.com/in/nicolasregenhardt/"
           fgColor="gray"
           bgColor="transparent"
+          target="_blank"
+          rel="noopener noreferrer"
         />
         <SocialIcon
           url=" https://github.com/nrxdev"
           fgColor="gray"
           bgColor="transparent"
           network="github"
+          target="_blank"
+          rel="noopener noreferrer"
         />
         <SocialIcon
           url="https://www.facebook.com/nicolas.regenhardt"
           fgColor="gray"
           bgColor="transparent"
+          target="_blank"
+          rel="noopener noreferrer"
         />
         <SocialIcon
           url="https://www.instagram.com/nicolasregenhardt/"
           fgColor="gray"
           bgColor="transparent"
+          target="_blank"
+          rel="noopener noreferrer"
         />
       </motion.div>
       <Link href="#contact">
         <motion.div
           initial={{
-            x: 200,
             opacity: 0,
             scale: 0.5,
           }}
           animate={{
-            x: 0,
             opacity: 1,
             scale: 1,
           }}

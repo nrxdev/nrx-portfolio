@@ -20,7 +20,7 @@ const About = () => {
         viewport={{ once: true }}
         transition={{ duration: 1.2 }}
         src="/imgAbout.jpg"
-        className="-mb-20 mt-10 md:mb-0 flex-shrink-0 w-24 h-24 sm:w-32 sm:h-32 rounded-full object-cover md:rounded-lg md:w-64 md:h-95 xl:w-[350px] xl:h-[500px]"
+        className="-mb-20 mt-10 md:mb-0 flex-shrink-0 w-24 h-24 rounded-full object-cover lg:rounded-lg lg:w-[250px] lg:h-[400px] xl:w-[350px] xl:h-[500px]"
       />
       <div className="space-y-2 md:space-y-10 px-0 md:px-10">
         <h4 className="text-xl sm:text-4xl font-semibold">
